@@ -1,6 +1,6 @@
 {
   "name": "pull-to-refresh2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "pull to refresh and push to load more",
   "main": "index.js",
   "author": "lalalic@gmail.com",
@@ -24,6 +24,7 @@
     "babel-preset-react": "^6.5.0"
   },
   "scripts": {
+	"build": "babel src -d .",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
