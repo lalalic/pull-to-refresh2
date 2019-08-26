@@ -1,6 +1,6 @@
 {
   "name": "pull-to-refresh2",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "pull to refresh and push to load more",
   "main": "index.js",
   "author": "lalalic@gmail.com",
@@ -11,8 +11,7 @@
   "peerDependencies": {
     "material-ui": "^0.19.0",
     "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-tap-event-plugin": "^2.0.1"
+    "react-dom": "^16.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
