@@ -1,23 +1,20 @@
 {
   "name": "pull-to-refresh2",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "pull to refresh and push to load more",
   "main": "index.js",
   "author": "lalalic@gmail.com",
   "license": "MIT",
   "dependencies": {
-    "react-hammerjs": "^0.5.0"
+    "react-hammerjs": "^1.0.1"
   },
   "peerDependencies": {
-    "react": "^15.1.0",
-    "react-dom": "^15.6.1",
-    "material-ui": "^0.16.0",
+    "material-ui": "^0.19.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
     "react-tap-event-plugin": "^2.0.1"
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^3.2.6",
-    "@storybook/addon-links": "^3.2.6",
-    "@storybook/react": "^3.2.8",
     "babel-cli": "^6.18.0",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-plugin-transform-class-properties": "^6.24.1",
@@ -26,18 +23,17 @@
     "babel-preset-react": "^6.5.0"
   },
   "scripts": {
-	"build": "babel src -d .",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build": "babel src -d ."
   },
-   "keywords": [
+  "keywords": [
     "react",
     "react-component",
     "pull-to-refresh",
     "refresh",
-	"pull"
+    "pull"
   ],
-  "files":[
-    "index.js","README.md"
+  "files": [
+    "index.js",
+    "README.md"
   ]
 }
