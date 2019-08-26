@@ -1,6 +1,6 @@
 {
   "name": "pull-to-refresh2",
-  "version": "0.0.3",
+  "version": "1.0.3",
   "description": "pull to refresh and push to load more",
   "main": "index.js",
   "author": "lalalic@gmail.com",
